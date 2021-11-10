@@ -6,11 +6,10 @@ import About from "./components/Aboutme/About";
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <header className="Header">insert logo</header>
       <Nav></Nav>
-      <main>
-        <About></About>
-      </main>
+      <About></About>
     </div>
   );
 }
