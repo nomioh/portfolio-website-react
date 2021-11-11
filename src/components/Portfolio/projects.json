@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Budget Tracker",
+        "giturl": "https://github.com/nomioh/budget-tracker",
+        "deploy": "https://sheltered-crag-25149.herokuapp.com/"
+    },
+    {
+        "id": 1,
+        "name": "FoodieLove",
+        "giturl": "https://github.com/jasongrossman/team-2",
+        "deploy": "https://jasongrossman.github.io/team-2/"
+    },    
+    {
+        "id": 2,
+        "name": "Password Generator",
+        "giturl": "https://github.com/nomioh/password-generator",
+        "deploy": "https://nomioh.github.io/password-generator/"
+    },
+    {
+        "id": 3,
+        "name": "Employee Tracker",
+        "giturl": "https://github.com/nomioh/employee-tracker-12",
+        "deploy": "https://watch.screencastify.com/v/ziIVoB2YLFRyDdrhi67e"
+    }
+]
