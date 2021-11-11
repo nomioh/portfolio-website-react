@@ -1,29 +1,70 @@
 import React from "react";
 
-function Nav() {
+const Nav = (props) => {
+  const {
+    setAboutSelected,
+    setPortfolioSelected,
+    setContactSelected,
+    setResumeSelected,
+  } = props;
+
   return (
-    <header>
+    <header className="flex-row space-between px-1">
       <h2>
-        <a href="/">Nomi</a>
+        <a href="/">
+          <span aria-label="name">Noyemi Ohanyan</span>
+        </a>
       </h2>
       <nav>
-        <ul>
-          <li>
-            <a href="#About">About Me</a>
+        <ul className="flex-row">
+          <li
+            className="mx-2"
+            onClick={() => {
+              setAboutSelected(true);
+              setPortfolioSelected(false);
+              setContactSelected(false);
+              setResumeSelected(false);
+            }}
+          >
+            About me
           </li>
-          <li>
-            <a href="#Contact">Contact</a>
+          <li
+            className="mx-2"
+            onClick={() => {
+              setPortfolioSelected(true);
+              setAboutSelected(false);
+              setContactSelected(false);
+              setResumeSelected(false);
+            }}
+          >
+            Portfolio
           </li>
-          <li>
-            <a href="#Portfolio">Projects</a>
+          <li
+            className="mx-2"
+            onClick={() => {
+              setContactSelected(true);
+              setPortfolioSelected(false);
+              setAboutSelected(false);
+              setResumeSelected(false);
+            }}
+          >
+            Contact me
           </li>
-          <li>
-            <a href="#Resume">Resume</a>
+          <li
+            className="mx-2"
+            onClick={() => {
+              setResumeSelected(true);
+              setContactSelected(false);
+              setPortfolioSelected(false);
+              setAboutSelected(false);
+            }}
+          >
+            Resume
           </li>
         </ul>
       </nav>
     </header>
   );
-}
+};
 
 export default Nav;

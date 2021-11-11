@@ -3,7 +3,11 @@ import React, { useState } from "react";
 // import "./App.css";
 import Nav from "./components/Nav/index";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact/index";
 import About from "./components/Aboutme/About";
+import Footer from "./components/Footer/index";
+import Header from "./components/Header/index";
+import Resume from "./components/Resume/index";
 
 function App() {
   const [aboutSelected, setAboutSelected] = useState(false);
@@ -24,10 +28,10 @@ function App() {
         {!portfolioSelected &&
           !contactSelected &&
           !resumeSelected &&
-          !aboutSelected && <AboutMe />}
-        {aboutSelected && <AboutMe />}
+          !aboutSelected && <About />}
+        {aboutSelected && <About />}
         {portfolioSelected && <Portfolio />}
-        {contactSelected && <ContactMe />}
+        {contactSelected && <Contact />}
         {resumeSelected && <Resume />}
       </main>
       <Footer />

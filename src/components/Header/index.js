@@ -1,7 +1,7 @@
 import React from "react";
 
 const index = () => {
-  return <div> Contact Me</div>;
+  return <div>About Me</div>;
 };
 
 export default index;
