@@ -12,7 +12,9 @@ const Nav = (props) => {
     <header className="flex-row space-between px-1">
       <h2>
         <a href="/">
-          <span aria-label="name">Noyemi Ohanyan</span>
+          <span role="img" aria-label="name">
+            Noyemi Ohanyan
+          </span>
         </a>
       </h2>
       <nav>

@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact/index";
 import About from "./components/Aboutme/About";
 import Footer from "./components/Footer/index";
-import Header from "./components/Header/index";
 import Resume from "./components/Resume/index";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <header className="Header">insert logo</header> */}
       <Nav
         setAboutSelected={setAboutSelected}
         setPortfolioSelected={setPortfolioSelected}
