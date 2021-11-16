@@ -1,7 +1,7 @@
 import React from "react";
 
 const Nav = (props) => {
-  const { home, setHome } = props;
+  const { setHome } = props;
 
   return (
     <header className="flex-row px-2 py-2 hbackground">
