@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <section className="my-5">
       <h1 className="center" id="about">
-        Sample Pictures
+        My Projects
       </h1>
       <div className="flex-row center">
         <img

@@ -9,7 +9,7 @@ import "./App.css";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
-  const [home, setHome] = useState("About");
+  const [home, setHome] = useState("about");
   const renderTab = () => {
     switch (home) {
       case "about":

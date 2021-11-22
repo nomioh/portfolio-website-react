@@ -1,4 +1,6 @@
 import React from "react";
+import logo from "../../assets/images/logo.svg";
+import "./style/nav.css";
 
 const Nav = (props) => {
   const { setHome } = props;
@@ -7,7 +9,7 @@ const Nav = (props) => {
     <header className="flex-row px-2 py-2 hbackground">
       <h2>
         <a href="/" className="hbackground">
-          Noyemi
+          <img src={logo} alt="logo" />
         </a>
       </h2>
       <nav>
